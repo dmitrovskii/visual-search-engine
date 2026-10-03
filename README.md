@@ -1,5 +1,14 @@
 # Visual Search Engine
 
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC2626?logo=qdrant&logoColor=white)
+![Aiogram](https://img.shields.io/badge/Aiogram_3-2CA5E0?logo=telegram&logoColor=white)
+![NiceGUI](https://img.shields.io/badge/NiceGUI-3.15-00A389)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker&logoColor=white)
+
+
 > Розподілена мікросервісна система для візуального пошуку та каталогізації зображень за допомогою комп'ютерного зору (DINOv2) та векторної бази даних Qdrant.
 
 > Проєкт надає повноцінний пайплайн: веб-інтерфейс для пакетного завантаження та адміністрування бази референсів, Telegram-бот для миттєвого пошуку схожих зображень за фотографією користувача та ізольований ML-сервіс інференсу.
@@ -78,8 +87,8 @@
 ### 1. Клонування репозиторію
 
 ``` bash 
-git clone https://github.com/dmitrovskii/photo-scanner-bot.git
-cd photo-scanner-bot
+git clone https://github.com/dmitrovskii/visual-search-engine.git
+cd visual-search-engine
 ```
 
 ### 2. Налаштування змінних середовища
